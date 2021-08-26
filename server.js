@@ -5,7 +5,7 @@ function iniciar() {
   function onRequest(request, response) {
     console.log("Petición Recibida.");
 
-    if(request.url == "/index"){
+    if(request.url == "/archivos/index"){
 
         response.writeHead(200, {"Content-Type": "text/html"});
         response.write("Hola Mundo");
